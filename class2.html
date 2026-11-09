@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="texto">HOLA MUNDO</p>
+    <p class="textos">HOLA JUAN</p>
+    <p class="textos">HOLA MARIA</p>
+    <p class="textos">HOLA JESUS</p>
+
+    <a href="class.html">Ir a class1</sa>
+
+    <script>
+        let texto=document.querySelector("#texto");
+        texto.style.color="red";
+
+        let todo=document.querySelectorAll(".textos");
+        todo.forEach((todo)=>{
+            todo.style.color="blue";
+        });
+    </script>
+</body>
+</html>
